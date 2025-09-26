@@ -1,0 +1,123 @@
+body{
+    background-color: bisque;
+}
+header{
+    margin-bottom: 80px;
+}
+h1{
+    font-size: 70px;
+    margin: 0px;
+}
+.p1{
+    font-size: 20px;
+}
+img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px;
+    margin-bottom: 0px;
+
+}
+.ima_info{
+    display: grid;
+    grid-template-columns: 22% 78%;
+    gap: 0px;
+}
+.article2{
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+}
+h3{
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.achat{
+    margin-left: 30px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.discuter{
+    background-color: orange;
+    border-radius: 10px;
+
+}
+footer{
+    height: 100px;
+    text-align: center;
+    background-color: beige;
+    margin-top: 50px;}
+a{
+    text-decoration: none;
+    color: orange;
+}
+.icone{
+    width: 40px;
+    height: 50px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  body{
+    background-color: bisque;
+}
+header{
+    margin-bottom: 80px;
+}
+h1{
+    font-size: 70px;
+    margin: 0px;
+}
+.p1{
+    font-size: 20px;
+}
+img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px;
+    margin-bottom: 0px;
+
+}
+.ima_info{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.article2{
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+}
+h3{
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.achat{
+    margin-left: 30px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.discuter{
+    background-color: orange;
+    border-radius: 10px;
+
+}  
+}
+@media only screen and (min-width: 480px) and (max-width: 560px){}
+@media only screen and (min-width: 561px) and (max-width: 768px){}
+@media only screen and (min-width: 768px) and (max-width: 1024px){}
